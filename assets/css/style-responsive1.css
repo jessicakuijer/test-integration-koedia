@@ -2,6 +2,9 @@
 
 @media (max-width: 768px) {
   
+  header .desktop-nav ul li {
+    margin: 0 10px;
+}
   /* Sections */
   
   section {
