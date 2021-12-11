@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- balises OG (Open Graph) -->
+    <meta property="og:url" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    
+    <title>Test intégration</title>
+    <!-- Desktop -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Max-width=768px -->
+    <link rel="stylesheet" href="assets/css/style-responsive1.css" />
+    <!-- Max-width=728px + 500px -->
+    <link rel="stylesheet" href="assets/css/style-responsive2.css" />
+  </head>
+  <body>
+    
+    <div class="wrapper">
+      <header id="accueil">
+        <nav class="desktop-nav">
+          <div class="logo">
+            <a href="#accueil">
+              <div class="logo-placeholder"><span>logo</span></div>
+            </a>
+          </div>
+          <ul>
+            <li>
+              <a href="#accueil">Menu 1</a>
+            </li>
+            <li>
+              <a href="#projets">Menu 2</a>
+            </li>
+            <li>
+              <a href="#contact">Menu 3</a>
+            </li>
+            <li>
+              <a href="#">Menu 4</a>
+            </li>
+          </ul>
+        </nav>
+      
+        <div class="hero-container">
+          <div class="hero-img">
+          </div>
+        </div>
+
+      </header>
+      <section id="apropos">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+      </section>
+
+      <section id="projets">
+        <div class="section-content">
+          <div class="work-container">
+            <img src="assets/images/block-full-width.png" alt="" />
+        </div>
+      </section>
+     
+      <section id="contact">
+        <div class="click">
+          <div class="buttons" id="myForm">
+            <div class="block2" id="text-changed1"></div>
+            <div class="block2" id="text-changed2"></div>
+            <div class="block2" id="text-changed3"></div>
+          </div>
+          <span id="change">text change on click</span>
+        </div>
+      </section>
+      
+      <footer>
+      </footer>
+    </div>
+    <script>
+      var button1 = document.getElementById('text-changed1');
+      var content = document.getElementById('change');
+      var button2 = document.getElementById('text-changed2');
+      var button3 = document.getElementById('text-changed3');
+
+      button1.onclick = function() {
+          content.innerHTML = 'text changed 1';
+      };
+      button2.onclick = function() {
+          content.innerHTML = 'text changed 2';
+      };
+      button3.onclick = function() {
+          content.innerHTML = 'text changed 3';
+      };
+    </script>
+  </body>
+</html>

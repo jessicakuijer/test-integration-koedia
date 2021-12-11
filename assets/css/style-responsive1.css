@@ -1,0 +1,32 @@
+/* Media Queries */
+
+@media (max-width: 768px) {
+  
+  /* Sections */
+  
+  section {
+    padding: 100px 0 0 0;
+  }
+  
+  /* Contact Section */
+    
+  .click .block2 {
+    margin: 10px;
+    width: 154px;
+    height: 88px;
+    background: #F0F0F0;
+  }
+
+  .click .buttons {
+    display: flex;
+    margin: 25px 0px 25px 10px;
+  }
+
+  .click span {
+    margin: 70px 5px;
+  }
+
+  .block2:active {
+    background-color: white;
+  }
+}
