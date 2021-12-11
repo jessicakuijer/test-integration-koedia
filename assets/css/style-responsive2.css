@@ -116,11 +116,11 @@
     /* Contact Section */
       
     .click .block2 {
-      margin: 10px;
-      width: 120px;
-      height: 80px;
-      background: #F0F0F0;
-  }
+    margin: 10px;
+    width: 105px;
+    height: 80px;
+    background: #F0F0F0;
+}
   
     .click .buttons {
       display: flex;
